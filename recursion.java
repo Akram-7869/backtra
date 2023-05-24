@@ -88,21 +88,21 @@ public class recursion {
     
     // //brute force solution for the power of x
     // public static int power(int x,int n){
-    //     // //base condtion
-    //     // if(n==0)return 1;
-    //     // return x*power(x, n-1);
+        // //base condtion
+        // if(n==0)return 1;
+        // return x*power(x, n-1);
 
-    //     //optimized solution 
-    //     //base case
-    //     if(n==0)return 1;
-    //     int halfp=power(x, n/2);
-    //     int halfpsq=halfp*halfp;
-    //     //odd nu,ber  of power
-    //     if(n%2!=0) 
-    //     halfpsq= x*halfpsq;
+        //optimized solution 
+        //base case
+        if(n==0)return 1;
+        int halfp=power(x, n/2);
+        int halfpsq=halfp*halfp;
+        //odd nu,ber  of power
+        if(n%2!=0) 
+        halfpsq= x*halfpsq;
 
-    //     return halfpsq;
-    // // }
+        return halfpsq;
+    // }
 
     // public static void removestring(String str,int i,StringBuilder sb,boolean []map){
     //     //base case
