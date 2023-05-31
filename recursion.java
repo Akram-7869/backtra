@@ -2,23 +2,23 @@ import java.util.*;
 public class recursion {
     // public static void printten(int n){
     //     //base case
-    //     if(n==1){
-    //         System.out.println(n);
-    //         return;
-    //     }
-    //     System.out.print(n+" ");
-    //     printten(n-1);
-    // }
+        if(n==1){
+            System.out.println(n);
+            return;
+        }
+        System.out.print(n+" ");
+        printten(n-1);
+//     }
 
-    // //printing the numbers from one to 10 increasing order
-    // public static void printten(int n){
-    //     //base case
-    //     if(n==1){
-    //         System.out.print(n+" ");
-    //         return;
-    //     }
-    //     printten(n-1);
-    //     System.out.print(n+" ");
+//     // //printing the numbers from one to 10 increasing order
+//     // public static void printten(int n){
+//     //     //base case
+//     //     if(n==1){
+//     //         System.out.print(n+" ");
+//     //         return;
+//     //     }
+//     //     printten(n-1);
+//     //     System.out.print(n+" ");
        
        
     // }
